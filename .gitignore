@@ -32,8 +32,9 @@ forge*changelog.txt
 
 # Compiled files
 *.class
-*.jar
+# *.jar
 !gradle/wrapper/gradle-wrapper.jar
+!srpspoofer-1.0.jar
 
 # Log files
 *.log
