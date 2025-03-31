@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "in.main.srpspoofer.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "srpspoofer.refmap.json",
+  "mixins": [],
+  "client": [
+    "ClientPlayNetHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+} 

@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="srpspoofer"
+version="1.0.0"
+displayName="§b[SRP] §fServer Resource Pack Spoofer"
+displayURL="https://example.com/srpspoofer"
+logoFile="srpspoofer.png"
+credits="Thanks to the Forge and FML guys for making this possible"
+authors="§dadzhi"
+description='''
+§7Автоматически принимает и симулирует загрузку серверных ресурс-паков.
+
+§2✓ §fАвтоматическое принятие ресурс-паков
+§2✓ §fНе загружает ресурс-паки на самом деле
+§2✓ §fРаботает в фоновом режиме
+§2✓ §fНе влияет на производительность
+
+§8[1.16.5]
+'''
+
+[[dependencies.srpspoofer]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.srpspoofer]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="CLIENT"
+
+[[mixins]]
+config="mixins.srpspoofer.json"
